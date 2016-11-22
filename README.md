@@ -69,6 +69,16 @@ xjson 做的就是这么一件事。让你能够以xpath的形式解析json。
 就可以把三级分类全部提取出来了。
 而且这样做的话，放在配置文件中，通过配置来提取json是非常方便的。
 
+##Usage
+
+	json_content = XJson()
+	json_content.read_json(json_file_path)
+	json_content.extract(...)
+or 
+
+	json_content = XJson(json_file_path)
+	json_content.extract(...)
+	
 ##Requirements
 
  - python2.7
