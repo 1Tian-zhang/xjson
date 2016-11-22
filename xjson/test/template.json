@@ -1,0 +1,29 @@
+{
+    "windowTitle":"Audi AUDI A8 - partslink24",
+    "tcLinks":[
+        {
+            "caption":"2018",
+            "gray":true,
+            "jsonUrl":null,
+            "selected":false,
+            "subheader":false,
+            "url":"group.action?catalogMarket=RDW&episType=771&familyKey=91155&lang=zh&localMarketOnly=true&modelYear=2018&ordinalNumber=2&partDetailsMarket=RDW&startup=false&mode=K00U0XXXX&upds=1147"
+        },
+        {
+            "caption":"2017",
+            "gray":true,
+            "jsonUrl":null,
+            "selected":false,
+            "subheader":false,
+            "url":"group.action?catalogMarket=RDW&episType=771&familyKey=91155&lang=zh&localMarketOnly=true&modelYear=2017&ordinalNumber=2&partDetailsMarket=RDW&startup=false&mode=K00U0XXXX&upds=1147"
+        },
+        {
+            "caption":"2016",
+            "gray":true,
+            "jsonUrl":null,
+            "selected":false,
+            "subheader":false,
+            "url":"group.action?catalogMarket=RDW&episType=771&familyKey=91155&lang=zh&localMarketOnly=true&modelYear=2016&ordinalNumber=2&partDetailsMarket=RDW&startup=false&mode=K00U0XXXX&upds=1147"
+        }
+    ]
+}
