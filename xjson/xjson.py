@@ -12,15 +12,19 @@ class XJson(object):
 		else:
 			self.content = None
 		pass
-	def read_json(self,path):
-		if os.path.exists(path):
-			try:
+	def read_json(self,path):		
+		try:
+			if os.path.exists(path):
 				with open(path,"r") as f:
 					self.content = json.load(f)
-					self.__content = self.content.copy()
-					self._content = self.content.copy()
-			except ValueError,e:
-				print "json file syntax error,%s"%e
+			#else,path is json string
+			else:
+				self.content = json.loads(path)
+			self.__content = self.content.copy()
+			self._content = self.content.copy()
+		except ValueError,e:
+			print "json file or json string syntax error,%s"%e
+
 	def extract(self,rule):
 		if not rule:
 			print "rule is None or empty"
